@@ -1,0 +1,10 @@
+.dropdown_item {
+    min-width: 15rem;
+    padding: 1rem;
+}
+.dropdown_item:hover {
+    background-color: lightblue;
+}
+.dropdown_item_title {
+    padding: 1rem;
+}

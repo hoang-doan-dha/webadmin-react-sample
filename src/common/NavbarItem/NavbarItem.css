@@ -1,0 +1,26 @@
+.navbar_item {
+    position: relative;
+    height: var(--navbar-height);
+    width: 5rem;
+}
+.navbar_item_icon {
+    width: 5rem;
+    height: var(--navbar-height);
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar_item_icon:hover {
+    background-color: lightblue;
+}
+.navbar_item_dropdown {
+    position: absolute;
+    top: calc(var(--navbar-height) + .3rem);
+    padding: .5rem;
+    cursor: pointer;
+    border: .1rem solid #c7c5d8;
+    box-shadow: 0 0 15px #c7c5d8;
+    -webkit-box-shadow: 0 0 15px #c7c5d8;
+}

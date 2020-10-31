@@ -1,0 +1,10 @@
+.sidebar {
+    position: fixed;
+    width: var(--sidebar-width);
+    background-color: lightcoral;
+    height: 100%;
+}
+.sidebar_logo {
+    max-width: var(--sidebar-width);
+    height: auto;
+}
