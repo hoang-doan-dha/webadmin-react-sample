@@ -15,7 +15,7 @@ function NavbarItem(props) {
     }, [size]);
 
     return (
-        <OutsideClickHandler className="navbar_item"
+        <OutsideClickHandler 
             onOutsideClick={() => setOpen(false)}
         >
             <div className="navbar_item_icon"

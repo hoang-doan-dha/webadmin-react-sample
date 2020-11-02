@@ -1,7 +1,7 @@
 import React from 'react';
 import SidebarItem from '../../common/SidebarItem/SidebarItem';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee,  } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import './Sidebar.css';
 
 function Sidebar() {

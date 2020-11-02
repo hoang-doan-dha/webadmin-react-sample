@@ -6,9 +6,15 @@
     text-decoration: none;
     color: inherit;
     padding: 0 2.5rem;
+    font-size: 14px;
 }
 .sidebar_item:hover {
-    background-color: lightcyan;
+    background-color: lightpink;
+}
+.sidebar_item.selected {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
 }
 .sidebar_item_icon {
     width: 5rem;

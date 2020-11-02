@@ -6,4 +6,5 @@
     flex-direction: row;
     justify-content: flex-end;
     background-color: lightskyblue;
+    z-index: 1;
 }
